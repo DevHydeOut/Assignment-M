@@ -111,8 +111,6 @@ export default function Logo() {
                             });
 
                             gsap.to(container, {
-                                scale: 1.08,
-                                boxShadow: "0 20px 40px rgba(57, 181, 215, 0.3)",
                                 duration: 0.3,
                                 ease: "power2.out",
                             });

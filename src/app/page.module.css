@@ -566,6 +566,7 @@
 
 /* Logo Section */
 .logoOuter {
+  background-color: #FFFFFF;
   & .logoInner {
     gap: 40px;
 
@@ -856,7 +857,8 @@
 
 /* Journey Section */
 .journeyOuter {
-  margin-top: 40px;
+  padding-top: 100px;
+  background-color: #FFFFFF;
 
   & .journeyInner {
     gap: 40px;
@@ -1257,7 +1259,6 @@
 .footerOuter {
   width: 100%;
   padding: 20px 0;
-  background-color: #090909;
   color: white;
   display: flex;
   justify-content: center;

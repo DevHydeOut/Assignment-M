@@ -11,6 +11,10 @@ body {
   font-family: 'Darker_Grotesque', sans-serif;
 }
 
+body {
+  background-color: #090909;
+}
+
 section{
   width: 100%;
   display: flex;
