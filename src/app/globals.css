@@ -1,33 +1,22 @@
-:root {
-  --background: #ffffff;
-  --foreground: #171717;
-}
-
-@media (prefers-color-scheme: dark) {
-  :root {
-    --background: #0a0a0a;
-    --foreground: #ededed;
-  }
-}
-
 html,
 body {
   max-width: 100vw;
   overflow-x: hidden;
 }
 
-body {
-  color: var(--foreground);
-  background: var(--background);
-  font-family: Arial, Helvetica, sans-serif;
-  -webkit-font-smoothing: antialiased;
-  -moz-osx-font-smoothing: grayscale;
+*, *::before, *::after {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: 'Darker_Grotesque', sans-serif;
 }
 
-* {
-  box-sizing: border-box;
-  padding: 0;
-  margin: 0;
+section{
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 80px 0;
 }
 
 a {
@@ -35,8 +24,43 @@ a {
   text-decoration: none;
 }
 
-@media (prefers-color-scheme: dark) {
-  html {
-    color-scheme: dark;
+img {
+  display: block;
+  max-width: 100%;
+}
+
+h1{
+  font-size: 52px;
+  font-weight: 500;
+  line-height: 120%;
+}
+
+h2{
+  font-size: 42px;
+  font-weight: 400;
+  line-height: 120%;
+}
+
+h3{
+  font-size: 30px;
+  font-weight: 400;
+  line-height: 120%;
+}
+
+p{
+  font-size: 16px;
+  line-height: 160%;
+}
+
+@media (max-width: 540px) {
+  h1{
+    font-size: 40px;
+  }
+  h2{
+    font-size: 28px;
+  }
+  h3{
+    font-size: 24px;
   }
 }
+
