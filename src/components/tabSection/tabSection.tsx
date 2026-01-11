@@ -150,7 +150,7 @@ const TabSection = () => {
 
   return (
     <section className={styles.outerTab} ref={outerTabRef}>
-      <div className={styles.innerTab}>
+      <div className={`${styles.innerTab} ${styles.inner}`}>
         <div className={styles.tabHeading} ref={headingRef}>
           <h3 className={styles.tabH3}>
             Frequently Asked<br/>

@@ -138,7 +138,7 @@ export default function Logo() {
 
     return (
         <section className={styles.logoOuter} ref={logoOuterRef}>
-            <div className={styles.logoInner}>
+            <div className={`${styles.logoInner} ${styles.inner}`}>
                 <div className={styles.logoHeading} ref={logoHeadingRef}>
                     <h2 className={styles.logoH2}>
                         Gain Access to Mentors from<br/>

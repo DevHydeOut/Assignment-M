@@ -1,7 +1,7 @@
 /* Common Styles */
 .inner {
-  width: 95%;
-  max-width: 1440px;
+  width: 90%;
+  max-width: 1240px;
   display: flex;
   flex-direction: column;
   justify-content: center;
@@ -29,8 +29,8 @@
   }
 
   & .nav {
-    width: 95%;
-    max-width: 1440px;
+    width: 90%;
+    max-width: 1240px;
     display: flex;
     justify-content: space-between;
     align-items: center;
@@ -243,9 +243,7 @@
   & .statInner {
     display: grid;
     grid-template-columns: repeat(5, 1fr);
-    row-gap: 0;
-    max-width: 1440px;
-    margin: 0 auto;
+    row-gap: 24px;
     background-color: #090909;
 
     & .statItems {
@@ -339,13 +337,11 @@
   align-items: center;
 
   & .LineRevealH2 {
-    font-size: clamp(20px, 4vw, 50px);
+    font-size: 50px;
     line-height: 120%;
     font-style: italic;
     font-weight: 600;
     text-align: center;
-    padding: 0 20px;
-    max-width: 1200px;
   }
 }
 
@@ -573,13 +569,6 @@
 /* Logo Section */
 .logoOuter {
   & .logoInner {
-    width: 95%;
-    max-width: 1440px;
-    margin: 0 auto;
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    align-items: center;
     gap: 40px;
 
     & .logoHeading {
@@ -745,12 +734,6 @@
   background: #FAFAFA url(/faq-bg.png) no-repeat right center / contain;
 
   & .innerTab {
-    width: 95%;
-    max-width: 1440px;
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    align-items: center;
     gap: 40px;
 
     & .tabHeading {
